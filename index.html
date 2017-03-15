@@ -58,8 +58,11 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbAkw3lDMT3CxwETLHP4LMgpE8hRax6O8&callback=initMap""></script>
     <script src="js/google-map-init.js"></script>
     <script src="js/main.js"></script>
-
-
+<!-- Time Circles -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<script type="text/javascript" src="inc/TimeCircles.js"></script>
+	<link rel="stylesheet" href="inc/TimeCircles.css" />
   </head>
  <body>
   
@@ -96,8 +99,10 @@
 <!--                     <li><a href="work.html">Work</a></li> -->
 <!--                     <li><a href="#">Support</a></li>~~> -->
 <!--                     <li><a href="trusted_partners.html">Trusted Partners</a></li> -->
-                    <li><a href="contact.html">Contact</a></li>
+             <!-- 
+       <li><a href="contact.html">Contact</a></li>
                   </li>
+ -->
                 </ul>
                 </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -113,8 +118,11 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="block">
-                  <h1>Drop Us A Note</h1>
-                  <p>We love to here about new problems waiting for a solution. Check back soon we will be back with a full site.</p>
+                  <h1>Coming Soon!</h1>
+                  <p>V2 of our site will be up shortly.</p>
+					<div id="DateCountdown" data-date="2017-04-15 00:00:00" style="center width: 700px; center height: 225px; padding: 0px; box-sizing: border-box; background-color:"></div>
+					<div style="padding: 10px;">				
+					</div>
                 </div>
               </div>
             </div>
@@ -126,7 +134,7 @@
             <div class="row">
               <div class="col-md-6 col-sm-12">
                 <div class="block">
-                <!--   <form>
+                  <form>
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Your Name">
                     </div>
@@ -136,17 +144,17 @@
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Subject">
                     </div>
-                  </form> -->
+                  </form>
                 </div>
               </div>
               <div class="col-md-6 col-sm-12">
                 <div class="block">
-                <!--   <form>
+                  <form>
                     <div class="form-group-2">
                       <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
                     </div>
                     <button class="btn btn-default" type="submit">Send Message</button>
-                  </form> -->
+                  </form>
                 </div>
               </div>
             </div>
@@ -168,7 +176,8 @@
                   </ul>
 
                   <ul class="social-icons">
-                    <li>
+          <!-- 
+          <li>
                       <a href="#"><i class="fa fa-google"></i></a>
                     </li>
                     <li>
@@ -189,6 +198,7 @@
                     <li>
                       <a href="#"><i class="fa fa-facebook"></i></a>
                     </li>
+ -->
                   </ul>
                 </div>
               </div>
@@ -236,5 +246,16 @@
             </div>
           </div>
         </footer>
+         <script>
+            $("#DateCountdown").TimeCircles();      
+            var updateTime = function(){
+                var date = $("#date").val();
+                var time = $("#time").val();
+                var datetime = date + ' ' + time + ':00';
+                $("#DateCountdown").data('date', datetime).TimeCircles().start();
+            }
+            $("#date").change(updateTime).keyup(updateTime);
+            $("#time").change(updateTime).keyup(updateTime);
+            </script>
       </body>
     </html>
