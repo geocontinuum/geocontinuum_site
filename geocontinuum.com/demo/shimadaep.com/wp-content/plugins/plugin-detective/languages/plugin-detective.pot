@@ -1,0 +1,351 @@
+# Copyright (C) 2018 N Squared
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Detective 1.0.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin-detective\n"
+"POT-Creation-Date: 2018-06-21 16:49:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/class-wp-admin.php:141
+#: release/1.0.0/includes/class-wp-admin.php:109
+#: release/1.0.1/includes/class-wp-admin.php:109
+#: release/1.0.10/includes/class-wp-admin.php:141
+#: release/1.0.10beta/includes/class-wp-admin.php:141
+#: release/1.0.11/includes/class-wp-admin.php:141
+#: release/1.0.12/includes/class-wp-admin.php:141
+#: release/1.0.12-beta1/includes/class-wp-admin.php:141
+#: release/1.0.2/includes/class-wp-admin.php:109
+#: release/1.0.3/includes/class-wp-admin.php:109
+#: release/1.0.4/includes/class-wp-admin.php:109
+#: release/1.0.5/includes/class-wp-admin.php:109
+#: release/1.0.6/includes/class-wp-admin.php:109
+#: release/1.0.7/includes/class-wp-admin.php:115
+#: release/1.0.8/includes/class-wp-admin.php:115
+#: release/1.0.9/includes/class-wp-admin.php:141
+#: release/1.0.9beta/includes/class-wp-admin.php:141
+#: release/svn/includes/class-wp-admin.php:141
+msgid "Troubleshoot"
+msgstr ""
+
+#: plugin-detective.php:287 release/1.0.0/plugin-detective.php:268
+#: release/1.0.1/plugin-detective.php:268
+#: release/1.0.10/plugin-detective.php:287
+#: release/1.0.10beta/plugin-detective.php:268
+#: release/1.0.11/plugin-detective.php:287
+#: release/1.0.12/plugin-detective.php:287
+#: release/1.0.12-beta1/plugin-detective.php:287
+#: release/1.0.2/plugin-detective.php:268
+#: release/1.0.3/plugin-detective.php:268
+#: release/1.0.4/plugin-detective.php:268
+#: release/1.0.5/plugin-detective.php:268
+#: release/1.0.6/plugin-detective.php:268
+#: release/1.0.7/plugin-detective.php:268
+#: release/1.0.8/plugin-detective.php:268
+#: release/1.0.9/plugin-detective.php:268
+#: release/1.0.9beta/plugin-detective.php:268
+#: release/svn/plugin-detective.php:287
+msgid ""
+"Plugin Detective is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-api.php:131
+#: release/1.0.1/troubleshoot/includes/class-api.php:131
+#: release/1.0.10/troubleshoot/includes/class-api.php:131
+#: release/1.0.10beta/troubleshoot/includes/class-api.php:131
+#: release/1.0.11/troubleshoot/includes/class-api.php:131
+#: release/1.0.12/troubleshoot/includes/class-api.php:131
+#: release/1.0.12-beta1/troubleshoot/includes/class-api.php:131
+#: release/1.0.2/troubleshoot/includes/class-api.php:131
+#: release/1.0.3/troubleshoot/includes/class-api.php:131
+#: release/1.0.4/troubleshoot/includes/class-api.php:131
+#: release/1.0.5/troubleshoot/includes/class-api.php:131
+#: release/1.0.6/troubleshoot/includes/class-api.php:131
+#: release/1.0.7/troubleshoot/includes/class-api.php:131
+#: release/1.0.8/troubleshoot/includes/class-api.php:131
+#: release/1.0.9/troubleshoot/includes/class-api.php:131
+#: release/1.0.9beta/troubleshoot/includes/class-api.php:131
+#: release/svn/troubleshoot/includes/class-api.php:131
+#: troubleshoot/includes/class-api.php:131
+msgid ""
+"No input detected, possibly due to a malformed request or server setting. "
+"Please contact support"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-auth.php:51
+#: release/1.0.0/troubleshoot/includes/class-auth.php:71
+#: release/1.0.1/troubleshoot/includes/class-auth.php:51
+#: release/1.0.1/troubleshoot/includes/class-auth.php:71
+#: release/1.0.10/troubleshoot/includes/class-auth.php:51
+#: release/1.0.10/troubleshoot/includes/class-auth.php:71
+#: release/1.0.10beta/troubleshoot/includes/class-auth.php:51
+#: release/1.0.10beta/troubleshoot/includes/class-auth.php:71
+#: release/1.0.11/troubleshoot/includes/class-auth.php:51
+#: release/1.0.11/troubleshoot/includes/class-auth.php:71
+#: release/1.0.12/troubleshoot/includes/class-auth.php:51
+#: release/1.0.12/troubleshoot/includes/class-auth.php:71
+#: release/1.0.12-beta1/troubleshoot/includes/class-auth.php:51
+#: release/1.0.12-beta1/troubleshoot/includes/class-auth.php:71
+#: release/1.0.2/troubleshoot/includes/class-auth.php:51
+#: release/1.0.2/troubleshoot/includes/class-auth.php:71
+#: release/1.0.3/troubleshoot/includes/class-auth.php:51
+#: release/1.0.3/troubleshoot/includes/class-auth.php:71
+#: release/1.0.4/troubleshoot/includes/class-auth.php:51
+#: release/1.0.4/troubleshoot/includes/class-auth.php:71
+#: release/1.0.5/troubleshoot/includes/class-auth.php:51
+#: release/1.0.5/troubleshoot/includes/class-auth.php:71
+#: release/1.0.6/troubleshoot/includes/class-auth.php:51
+#: release/1.0.6/troubleshoot/includes/class-auth.php:71
+#: release/1.0.7/troubleshoot/includes/class-auth.php:51
+#: release/1.0.7/troubleshoot/includes/class-auth.php:71
+#: release/1.0.8/troubleshoot/includes/class-auth.php:51
+#: release/1.0.8/troubleshoot/includes/class-auth.php:71
+#: release/1.0.9/troubleshoot/includes/class-auth.php:51
+#: release/1.0.9/troubleshoot/includes/class-auth.php:71
+#: release/1.0.9beta/troubleshoot/includes/class-auth.php:51
+#: release/1.0.9beta/troubleshoot/includes/class-auth.php:71
+#: release/svn/troubleshoot/includes/class-auth.php:51
+#: release/svn/troubleshoot/includes/class-auth.php:71
+#: troubleshoot/includes/class-auth.php:51
+#: troubleshoot/includes/class-auth.php:71
+msgid ""
+"<strong>ERROR</strong>: Invalid username, email address or incorrect "
+"password."
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-auth.php:58
+#: release/1.0.0/troubleshoot/includes/class-auth.php:78
+#: release/1.0.1/troubleshoot/includes/class-auth.php:58
+#: release/1.0.1/troubleshoot/includes/class-auth.php:78
+#: release/1.0.10/troubleshoot/includes/class-auth.php:58
+#: release/1.0.10/troubleshoot/includes/class-auth.php:78
+#: release/1.0.10beta/troubleshoot/includes/class-auth.php:58
+#: release/1.0.10beta/troubleshoot/includes/class-auth.php:78
+#: release/1.0.11/troubleshoot/includes/class-auth.php:58
+#: release/1.0.11/troubleshoot/includes/class-auth.php:78
+#: release/1.0.12/troubleshoot/includes/class-auth.php:58
+#: release/1.0.12/troubleshoot/includes/class-auth.php:78
+#: release/1.0.12-beta1/troubleshoot/includes/class-auth.php:58
+#: release/1.0.12-beta1/troubleshoot/includes/class-auth.php:78
+#: release/1.0.2/troubleshoot/includes/class-auth.php:58
+#: release/1.0.2/troubleshoot/includes/class-auth.php:78
+#: release/1.0.3/troubleshoot/includes/class-auth.php:58
+#: release/1.0.3/troubleshoot/includes/class-auth.php:78
+#: release/1.0.4/troubleshoot/includes/class-auth.php:58
+#: release/1.0.4/troubleshoot/includes/class-auth.php:78
+#: release/1.0.5/troubleshoot/includes/class-auth.php:58
+#: release/1.0.5/troubleshoot/includes/class-auth.php:78
+#: release/1.0.6/troubleshoot/includes/class-auth.php:58
+#: release/1.0.6/troubleshoot/includes/class-auth.php:78
+#: release/1.0.7/troubleshoot/includes/class-auth.php:58
+#: release/1.0.7/troubleshoot/includes/class-auth.php:78
+#: release/1.0.8/troubleshoot/includes/class-auth.php:58
+#: release/1.0.8/troubleshoot/includes/class-auth.php:78
+#: release/1.0.9/troubleshoot/includes/class-auth.php:58
+#: release/1.0.9/troubleshoot/includes/class-auth.php:78
+#: release/1.0.9beta/troubleshoot/includes/class-auth.php:58
+#: release/1.0.9beta/troubleshoot/includes/class-auth.php:78
+#: release/svn/troubleshoot/includes/class-auth.php:58
+#: release/svn/troubleshoot/includes/class-auth.php:78
+#: troubleshoot/includes/class-auth.php:58
+#: troubleshoot/includes/class-auth.php:78
+msgid ""
+"<strong>ERROR</strong>: This user does not have permission to "
+"activate/deactivate plugins"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-cases.php:125
+#: release/1.0.1/troubleshoot/includes/class-cases.php:125
+#: release/1.0.10/troubleshoot/includes/class-cases.php:125
+#: release/1.0.10beta/troubleshoot/includes/class-cases.php:125
+#: release/1.0.11/troubleshoot/includes/class-cases.php:125
+#: release/1.0.12/troubleshoot/includes/class-cases.php:125
+#: release/1.0.12-beta1/troubleshoot/includes/class-cases.php:125
+#: release/1.0.2/troubleshoot/includes/class-cases.php:125
+#: release/1.0.3/troubleshoot/includes/class-cases.php:125
+#: release/1.0.4/troubleshoot/includes/class-cases.php:125
+#: release/1.0.5/troubleshoot/includes/class-cases.php:125
+#: release/1.0.6/troubleshoot/includes/class-cases.php:125
+#: release/1.0.7/troubleshoot/includes/class-cases.php:125
+#: release/1.0.8/troubleshoot/includes/class-cases.php:125
+#: release/1.0.9/troubleshoot/includes/class-cases.php:125
+#: release/1.0.9beta/troubleshoot/includes/class-cases.php:125
+#: release/svn/troubleshoot/includes/class-cases.php:125
+#: troubleshoot/includes/class-cases.php:125
+msgid "Plugin Detective was unable to open a new case. Please contact support."
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-cases.php:226
+#: release/1.0.1/troubleshoot/includes/class-cases.php:226
+#: release/1.0.10/troubleshoot/includes/class-cases.php:230
+#: release/1.0.10beta/troubleshoot/includes/class-cases.php:230
+#: release/1.0.11/troubleshoot/includes/class-cases.php:230
+#: release/1.0.12/troubleshoot/includes/class-cases.php:230
+#: release/1.0.12-beta1/troubleshoot/includes/class-cases.php:230
+#: release/1.0.2/troubleshoot/includes/class-cases.php:226
+#: release/1.0.3/troubleshoot/includes/class-cases.php:226
+#: release/1.0.4/troubleshoot/includes/class-cases.php:226
+#: release/1.0.5/troubleshoot/includes/class-cases.php:226
+#: release/1.0.6/troubleshoot/includes/class-cases.php:230
+#: release/1.0.7/troubleshoot/includes/class-cases.php:230
+#: release/1.0.8/troubleshoot/includes/class-cases.php:230
+#: release/1.0.9/troubleshoot/includes/class-cases.php:230
+#: release/1.0.9beta/troubleshoot/includes/class-cases.php:230
+#: release/svn/troubleshoot/includes/class-cases.php:230
+#: troubleshoot/includes/class-cases.php:230
+msgid "No active case found"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-cases.php:243
+#: release/1.0.1/troubleshoot/includes/class-cases.php:243
+#: release/1.0.10/troubleshoot/includes/class-cases.php:247
+#: release/1.0.10beta/troubleshoot/includes/class-cases.php:247
+#: release/1.0.11/troubleshoot/includes/class-cases.php:247
+#: release/1.0.12/troubleshoot/includes/class-cases.php:247
+#: release/1.0.12-beta1/troubleshoot/includes/class-cases.php:247
+#: release/1.0.2/troubleshoot/includes/class-cases.php:243
+#: release/1.0.3/troubleshoot/includes/class-cases.php:243
+#: release/1.0.4/troubleshoot/includes/class-cases.php:243
+#: release/1.0.5/troubleshoot/includes/class-cases.php:243
+#: release/1.0.6/troubleshoot/includes/class-cases.php:247
+#: release/1.0.7/troubleshoot/includes/class-cases.php:247
+#: release/1.0.8/troubleshoot/includes/class-cases.php:247
+#: release/1.0.9/troubleshoot/includes/class-cases.php:247
+#: release/1.0.9beta/troubleshoot/includes/class-cases.php:247
+#: release/svn/troubleshoot/includes/class-cases.php:247
+#: troubleshoot/includes/class-cases.php:247
+msgid "No case id specified for get()"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-cases.php:256
+#: release/1.0.1/troubleshoot/includes/class-cases.php:256
+#: release/1.0.10/troubleshoot/includes/class-cases.php:260
+#: release/1.0.10beta/troubleshoot/includes/class-cases.php:260
+#: release/1.0.11/troubleshoot/includes/class-cases.php:260
+#: release/1.0.12/troubleshoot/includes/class-cases.php:260
+#: release/1.0.12-beta1/troubleshoot/includes/class-cases.php:260
+#: release/1.0.2/troubleshoot/includes/class-cases.php:256
+#: release/1.0.3/troubleshoot/includes/class-cases.php:256
+#: release/1.0.4/troubleshoot/includes/class-cases.php:256
+#: release/1.0.5/troubleshoot/includes/class-cases.php:256
+#: release/1.0.6/troubleshoot/includes/class-cases.php:260
+#: release/1.0.7/troubleshoot/includes/class-cases.php:260
+#: release/1.0.8/troubleshoot/includes/class-cases.php:260
+#: release/1.0.9/troubleshoot/includes/class-cases.php:260
+#: release/1.0.9beta/troubleshoot/includes/class-cases.php:260
+#: release/svn/troubleshoot/includes/class-cases.php:260
+#: troubleshoot/includes/class-cases.php:260
+msgid "No case id specified for create()"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/includes/class-clues.php:66
+#: release/1.0.1/troubleshoot/includes/class-clues.php:66
+#: release/1.0.10/troubleshoot/includes/class-clues.php:66
+#: release/1.0.10beta/troubleshoot/includes/class-clues.php:66
+#: release/1.0.11/troubleshoot/includes/class-clues.php:66
+#: release/1.0.12/troubleshoot/includes/class-clues.php:66
+#: release/1.0.12-beta1/troubleshoot/includes/class-clues.php:66
+#: release/1.0.2/troubleshoot/includes/class-clues.php:66
+#: release/1.0.3/troubleshoot/includes/class-clues.php:66
+#: release/1.0.4/troubleshoot/includes/class-clues.php:66
+#: release/1.0.5/troubleshoot/includes/class-clues.php:66
+#: release/1.0.6/troubleshoot/includes/class-clues.php:66
+#: release/1.0.7/troubleshoot/includes/class-clues.php:66
+#: release/1.0.8/troubleshoot/includes/class-clues.php:66
+#: release/1.0.9/troubleshoot/includes/class-clues.php:66
+#: release/1.0.9beta/troubleshoot/includes/class-clues.php:66
+#: release/svn/troubleshoot/includes/class-clues.php:66
+#: troubleshoot/includes/class-clues.php:66
+msgid "outcome field required"
+msgstr ""
+
+#: release/1.0.0/troubleshoot/troubleshoot.php:253
+#: release/1.0.1/troubleshoot/troubleshoot.php:253
+#: release/1.0.10/troubleshoot/troubleshoot.php:273
+#: release/1.0.10beta/troubleshoot/troubleshoot.php:273
+#: release/1.0.11/troubleshoot/troubleshoot.php:273
+#: release/1.0.12/troubleshoot/troubleshoot.php:273
+#: release/1.0.12-beta1/troubleshoot/troubleshoot.php:273
+#: release/1.0.2/troubleshoot/troubleshoot.php:253
+#: release/1.0.3/troubleshoot/troubleshoot.php:253
+#: release/1.0.4/troubleshoot/troubleshoot.php:253
+#: release/1.0.5/troubleshoot/troubleshoot.php:253
+#: release/1.0.6/troubleshoot/troubleshoot.php:253
+#: release/1.0.7/troubleshoot/troubleshoot.php:273
+#: release/1.0.8/troubleshoot/troubleshoot.php:273
+#: release/1.0.9/troubleshoot/troubleshoot.php:273
+#: release/1.0.9beta/troubleshoot/troubleshoot.php:273
+#: release/svn/troubleshoot/troubleshoot.php:273
+#: troubleshoot/troubleshoot.php:273
+msgid ""
+"Troubleshoot is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php:3
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php:6
+msgid "Exclude"
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php:2
+msgid "Include"
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php:2
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:2
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:3
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:4
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:2
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:3
+msgid "String"
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:9
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:10
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:11
+msgid "1 Star"
+msgid_plural "%s Stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/translator-comments/translator-comments.php:7
+#. translators: A single line translators comment.
+msgid "A"
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/translator-comments/translator-comments.php:15
+#. translators: A multiline translators comment.
+msgid "B"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Plugin Detective"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nsqua.red"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Quickly identify & fix plugin conflicts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "N Squared"
+msgstr ""
+
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:6
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:7
+#: troubleshoot/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:8
+msgctxt "a string"
+msgid "String"
+msgstr ""
