@@ -17,17 +17,17 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/home/andpla5/andreaplavi.com/andreaplavi.com/wp-content/plugins/wp-super-cache/' );
-define('DB_NAME', 'andreaplavi_com');
+define('WPCACHEHOME', '/home/andarahawaii.com/wp-content/plugins/wp-super-cache/' );
+define('DB_NAME', 'andarahawaii_1');
 
 /** MySQL database username */
-define('DB_USER', 'andreaplavicom');
+define('DB_USER', 'admingeo');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'NhDtrUJj');
+define('DB_PASSWORD', 'Nalu1water');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.andreaplavi.com');
+define('DB_HOST', 'mysql.andarahawaii.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
